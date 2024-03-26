@@ -7,6 +7,7 @@ import Health from './components/Health';
 import Download from './components/Download';
 import Testimonial from './components/Testimonial';
 import Article from './components/Article';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Download />
       <Testimonial />
       <Article />
+      <Footer />
     </>
   )
 }
