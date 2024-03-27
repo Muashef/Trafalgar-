@@ -14,21 +14,21 @@ const Footer = () => {
             </div>
 
             <div className='grid grid-cols-1 lg:grid-cols-3'>
-                <div className=''>
+                <div className='cursor-pointer'>
                     <h1 className='text-white text-xl font-bold mb-3'>Company</h1>
                     <p className='text-white text-lg font-light mb-3'>About</p>
                     <p className='text-white text-lg font-light mb-3'>Testimonials</p>
                     <p className='text-white text-lg font-light mb-3'>Find a doctor</p>
                     <p className='text-white text-lg font-light mb-3'>Apps</p>
                 </div>
-                <div>
+                <div className='cursor-pointer'>
                 <   h1 className='text-white text-xl font-bold mb-3'>Region</h1>
                     <p className='text-white text-lg font-light mb-3'>Indonesia</p>
                     <p className='text-white text-lg font-light mb-3'>Singapore</p>
                     <p className='text-white text-lg font-light mb-3'>Hongkong</p>
                     <p className='text-white text-lg font-light mb-3'>Canada</p>
                 </div>
-                <div>
+                <div className='cursor-pointer'>
                     <h1 className='text-white text-xl font-bold mb-3'>Help</h1>
                     <p className='text-white text-lg font-light mb-3'>Help Center</p>
                     <p className='text-white text-lg font-light mb-3'>Contact Support</p>
