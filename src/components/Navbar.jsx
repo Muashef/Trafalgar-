@@ -31,7 +31,7 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div className='w-full h-full px-14 py-8'>
+    <div className='w-full h-full px-8 py-6 md:px-14 md:py-8'>
         <div className='flex items-center justify-between'>
             <a href="/">
                 <img src={Logo} alt="" />

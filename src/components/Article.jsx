@@ -5,12 +5,12 @@ import Nat from '../assets/svg/nat.svg';
 
 const Article = () => {
   return (
-    <div className='w-full h-full px-14 py-20'>
+    <div className='w-full h-full py-8 py:14 md:px-14 md:py-20'>
         <div className='text-center'>
-            <h1 className='text-4xl font-bold'>Check out our latest article</h1>
+            <h1 className='text-2xl md:text-4xl font-bold'>Check out our latest article</h1>
             <div className='border-2 border-black w-16 mt-6 font-extrabold mx-auto'></div>
         </div>
-        <div className='grid grid-cols lg:grid-cols-3 mt-20'>
+        <div className='grid grid-cols lg:grid-cols-3 place-content-center mx-auto gap-6 md:gap-0 mt-20'>
             <div className='bg-white border shadow-lg w-[21.875rem] rounded-lg'>
                 <div className=''>
                 <img className='' src={Disea} alt="" />

@@ -8,13 +8,13 @@ import Track from '../assets/svg/track.svg';
 
 const Services = () => {
   return (
-    <div className='w-full h-full px-14 py-20'>
+    <div className='w-full h-full px-8 py-14 md:px-14 md:py-20'>
         <div className='text-center'>
             <h1 className='text-4xl font-bold'>Our Services</h1>
             <div className='border-2 border-black w-16 mt-6 font-extrabold mx-auto'></div>
             <p className='text-[#7D7987] text-lg font-light mt-6'>We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment <br /> with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
         </div>
-        <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center mt-10 gap-6'>
+        <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center mx-auto mt-10 gap-6'>
             <div className='bg-white border border-white rounded-2xl shadow-lg p-6 w-[17rem] lg:w-[21.875rem]'>
                 <img src={Search} alt="search-icon" />
                 <h2 className='text-black font-bold text-2xl mt-4'>Search Doctor</h2>

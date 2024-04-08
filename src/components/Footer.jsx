@@ -13,7 +13,7 @@ const Footer = () => {
                 <p className='text-white text-base font-light mt-8'>©Trafalgar PTY LTD 2020. All rights reserved</p>
             </div>
 
-            <div className='grid grid-cols-1 lg:grid-cols-3'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 mt-6 md:mt-0'>
                 <div className='cursor-pointer'>
                     <h1 className='text-white text-xl font-bold mb-3'>Company</h1>
                     <p className='text-white text-lg font-light mb-3'>About</p>
