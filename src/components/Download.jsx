@@ -4,7 +4,7 @@ import Load from '../assets/svg/load.svg';
 const Download = () => {
   return (
     <div className='w-full h-full px-14 py-20'>
-        <div className='w-full flex items-center justify-between'>
+        <div className='w-full flex flex-col md:flex-row items-center justify-between'>
             <div className='pl-20'>
                 <h1 className='text-5xl text-black font-bold leading-snug'>Download our <br /> Mobile apps</h1>
                 <div className='border border-black w-16 mt-4 font-extrabold'></div>

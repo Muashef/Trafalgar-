@@ -4,7 +4,7 @@ import Traf from '../assets/svg/traf_hero.svg';
 const Hero = () => {
   return (
     <div className='w-full h-full px-14 py-8'>
-        <div className='w-full flex items-center justify-between'>
+        <div className='w-full flex flex-col md:flex-row items-center justify-between'>
             <div className=''>
                 <h1 className='text-5xl text-black font-bold'>Virtual healthcare <br /> for you</h1>
                 <p className='text-[#7D7987] text-[1.3125rem] mt-8'>
