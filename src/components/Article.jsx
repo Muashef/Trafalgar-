@@ -15,7 +15,6 @@ const Article = () => {
                 <div className=''>
                 <img className='' src={Disea} alt="" />
                 </div>
-                
                 <div className='p-8'>
                   <h1 className='text-xl text-black font-bold'>Disease detection, check up in the laboratory</h1>
                   <p className='text-[#7D7987] text-base font-light mt-3 mb-4'>In this case, the role of the health laboratory is very important to do a disease detection...</p>
@@ -26,7 +25,6 @@ const Article = () => {
                 <div className=''>
                 <img className='' src={Herb} alt="" />
                 </div>
-                
                 <div className='p-8'>
                   <h1 className='text-xl text-black font-bold'>Herbal medicines that are safe for consumption</h1>
                   <p className='text-[#7D7987] text-base font-light mt-3 mb-4'>Herbal medicine is very widely used at this time because of its very good for your health...</p>
@@ -37,7 +35,6 @@ const Article = () => {
                 <div className=''>
                 <img className='' src={Nat} alt="" />
                 </div>
-                
                 <div className='p-8'>
                   <h1 className='text-xl text-black font-bold'>Natural care for healthy facial skin</h1>
                   <p className='text-[#7D7987] text-base font-light mt-3 mb-4'>A healthy lifestyle should start from now and also for your skin health.There are some...</p>
